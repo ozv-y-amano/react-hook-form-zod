@@ -39,7 +39,7 @@ input {
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 14px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   padding: 8px;
   width: 100%;
 }
@@ -48,7 +48,7 @@ input {
 p {
   color: #e3342f;
   font-size: 12px;
-  margin: 0 0 15px;
+  margin: 0 0 10px;
 }
 
 /* 送信ボタン */
