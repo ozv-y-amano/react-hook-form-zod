@@ -14,3 +14,5 @@ export const validationSchema = z.object({
 		.min(1, "パスワードは必須です")
 		.min(6, "パスワードは6文字以上で入力してください"),
 });
+
+export type validationSchemaType = z.infer<typeof validationSchema>;
